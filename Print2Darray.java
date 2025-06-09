@@ -15,8 +15,9 @@ for(i=0;i<rows;i++){
 }
 for(i=0;i<rows;i++){
   for(j=0;j<cols;j++){
-    System.out.println(arr[i][j]);
+    System.out.print(arr[i][j]+" ");
   }
+  System.out.println();
 }
 }
 }
